@@ -1,0 +1,70 @@
+Tidy Data Set 
+=================
+
+The Tidy data set created consists of multiple rows, which each row representing the mean and standard deviation for multiple variables/measurements extracted from the test and training data sets, across each activity and subject. It is obtained after prelimiary steps of data binding across all training data and data binding across all test data, and then later merging the training and test data sets. Then the required measures are only extracted i.e. of mean and standard deviation measurements. The descriptive activity data is obtained from activity data sets which is populated in tidy data sets. 
+
+The variables are named using the data from features data set. 
+
+After all the cleaning steps, measurment data is grouped across each activity and subject and the final tidy data set is prepared.
+
+Below is a decription of variable names and data in Tidy data set.
+
+acitivy - activity name such WALKING,SITTING,STANDING etc....
+subjectid - id of subject, numbers range from 0 to 30
+
+
+
+Below are the remaining variables, where each represents either mean or standard deviation of meausurement, which can be
+identified by column naming. Last digit represent axis of measurements such as X,Y,Z. In the first of list, explained in details for reference.
+   
+tBodyGyromeanX - mean of tbodygyro meeasure across x axis...
+tBodyGyromeanY          
+tBodyGyromeanZ          
+tBodyGyrostdX           
+tBodyGyrostdY           
+tBodyGyrostdZ           
+tBodyGyroJerkmeanX      
+tBodyGyroJerkmeanY      
+tBodyGyroJerkmeanZ      
+tBodyGyroJerkstdX       
+tBodyGyroJerkstdY       
+tBodyGyroJerkstdZ       
+tBodyAccMagmean         
+tBodyAccMagstd          
+tGravityAccMagmean      
+tGravityAccMagstd       
+tBodyAccJerkMagmean     
+tBodyAccJerkMagstd      
+tBodyGyroMagmean        
+tBodyGyroMagstd         
+tBodyGyroJerkMagmean    
+tBodyGyroJerkMagstd     
+fBodyAccmeanX           
+fBodyAccmeanY           
+fBodyAccmeanZ           
+fBodyAccstdX            
+fBodyAccstdY            
+fBodyAccstdZ            
+fBodyAccJerkmeanX       
+fBodyAccJerkmeanY       
+fBodyAccJerkmeanZ       
+fBodyAccJerkstdX        
+fBodyAccJerkstdY        
+fBodyAccJerkstdZ        
+fBodyGyromeanX          
+fBodyGyromeanY          
+fBodyGyromeanZ          
+fBodyGyrostdX           
+fBodyGyrostdY           
+fBodyGyrostdZ           
+fBodyAccMagmean         
+fBodyAccMagstd          
+fBodyBodyAccJerkMagmean 
+fBodyBodyAccJerkMagstd  
+fBodyBodyGyroMagmean    
+fBodyBodyGyroMagstd     
+fBodyBodyGyroJerkMagmean
+fBodyBodyGyroJerkMagstd 
+
+
+
