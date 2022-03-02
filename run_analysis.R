@@ -27,5 +27,5 @@ names(finaldataset)=gsub("\\-","",names(finaldataset))
 grpfinaldataset<-group_by(finaldataset,activity,subjectid)
 tidydataset<-summarise(grpfinaldataset,across(everything(),mean))
 write.table(tidydataset,"C:/Users/Dattu/Documents/R-Stuff/Course Info & Work/Course 3/Course 3 - Week 4/Course Project/tidydataset_proj/tidydataset.txt",row.names=FALSE)
-#
+
 
